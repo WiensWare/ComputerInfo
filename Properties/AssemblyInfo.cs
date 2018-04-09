@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ComputerInfo")]
+[assembly: AssemblyTitle("Computer.Info")]
 [assembly: AssemblyDescription("Encapsulates multiple computer information properties for easy usage.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("WiensWare")]
-[assembly: AssemblyProduct("ComputerInfo")]
+[assembly: AssemblyProduct("Computer.Info")]
 [assembly: AssemblyCopyright("Copyright © WiensWare 2013-2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("3.0.0.*")]
+[assembly: AssemblyVersion("4.0.0.*")]
 

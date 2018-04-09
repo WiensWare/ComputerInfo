@@ -4,11 +4,11 @@ This is a .NET library that allows one to easily retreive tons of various comput
 
 ## Getting Started
 
-Reference the 32-bit or 64-bit DLL.  The 64-bit DLL is recommended if you'll be retreiving installed software.  The 32-bit version only returns the 32-bit installed software where as the 64-bit version returns both.
+Reference the DLL from your application.
 
 ## Prerequisites
 
-Requires at minimum the Microsoft .Net Framework 4.0.  Future versions work.
+Requires at minimum the Microsoft .Net Framework 4.5.  Future versions work.
 
 ## Testing the Library
 
