@@ -48,6 +48,9 @@ namespace WiensWare.Computer.Test
                 Console.WriteLine("{0} - {1}", monitors[0].Name, monitors[0].SerialNumber);
             }
 
+            Console.WriteLine("Press <ENTER> to continue.");
+            Console.ReadLine();
+
             Console.WriteLine("\nSoftware:");
             Console.WriteLine("-----------");
             SoftwareInfo[] softwares = Info.GetSoftwareInfo();

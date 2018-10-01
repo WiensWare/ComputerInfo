@@ -761,13 +761,9 @@ namespace WiensWare.Computer
                 info[i] = new MonitorInfo();
                 info[i].Name = theInstance.Properties["Name"].Value.ToString().Trim();
 
-                // Check monitor status.  May not be connected to computer!
+                // Check monitor status.  Old, previously connected monitors may be included as available.  Not sure how to prevent this.
                 string availability = theInstance.Properties["Availability"].Value.ToString();
-                if (availability == "8") info[i].valid = false;
-                else
-                {
-                    info[i].valid = true;
-                }
+                info[i].valid = true;
 
                 // Open registry and read EDID string about monitor
                 try
