@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiensWare.Computer.Info", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7C6C8C4A-3882-4795-B6B4-79032FCE6AC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiensWare.Computer.Info.Tests", "WiensWare.Computer.Info.Tests\WiensWare.Computer.Info.Tests.csproj", "{78F89C0F-1EF2-4ED3-A69D-6D2F78F67FE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7C6C8C4A-3882-4795-B6B4-79032FCE6AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C6C8C4A-3882-4795-B6B4-79032FCE6AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C6C8C4A-3882-4795-B6B4-79032FCE6AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F89C0F-1EF2-4ED3-A69D-6D2F78F67FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F89C0F-1EF2-4ED3-A69D-6D2F78F67FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F89C0F-1EF2-4ED3-A69D-6D2F78F67FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F89C0F-1EF2-4ED3-A69D-6D2F78F67FE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
