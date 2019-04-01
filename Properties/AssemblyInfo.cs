@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("WiensWare")]
 [assembly: AssemblyProduct("Computer.Info")]
-[assembly: AssemblyCopyright("Copyright © WiensWare 2013-2018")]
+[assembly: AssemblyCopyright("Copyright © WiensWare 2013-2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 //[assembly: System.Security.AllowPartiallyTrustedCallers]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("4.0.1.*")]
+[assembly: AssemblyVersion("4.0.2.*")]
 

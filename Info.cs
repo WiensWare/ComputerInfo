@@ -221,7 +221,7 @@ namespace WiensWare.Computer
         }
 
         /// <summary>
-        /// Amount of PC memory in MB
+        /// Amount of PC memory in MiB
         /// </summary>
         static public string GetMemory()
         {
@@ -230,7 +230,7 @@ namespace WiensWare.Computer
             try
             {
                 intMemory = UInt64.Parse(mem);
-                intMemory /= 1000000; // Convert to MB
+                intMemory = intMemory / 1024 / 1024; // Convert to MiB
             }
             catch (Exception) // Catch ALL exceptions
             {
